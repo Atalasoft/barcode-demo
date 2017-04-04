@@ -42,6 +42,7 @@ namespace Atalasoft.Demo.BarcodeReader
             // so make sure that they're constructed before the UI
             // gets built.
             _mySymbologyMap = new[] {
+                new SymbologyMap("Aztec", Symbologies.Aztec),
                 new SymbologyMap("Australia Post", Symbologies.AustraliaPost),
                 new SymbologyMap("Codabar", Symbologies.Codabar),
                 new SymbologyMap("Code 11", Symbologies.Code11),
